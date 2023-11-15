@@ -1,0 +1,14 @@
+{%- from "macros.html" import render_checkbox_list -%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom List</title>
+</head>
+<body>
+<form>
+    {{- render_checkbox_list(chkboxname, chkboxlist, chkboxchkd) }}
+</form>
+</body>
+</html>
